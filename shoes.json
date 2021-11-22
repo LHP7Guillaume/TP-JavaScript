@@ -73,72 +73,76 @@
             "price": 120
         },
         {
-            "reference": 110,
-            "original_name": "",
-            "description": " Disponibles du 38 au 48.",
-            "picture": "img/nike/airforceone.jpeg",
+            "reference": 201,
+            "original_name": "Sneaker Politics x adidas EQT Prototype “Foire universelle de 1984”",
+            "description": " Faisant partie de la collection «Life Needs Equipment» de Three Stripes, qui célèbre le 30e anniversaire d’adidas EQT, la paire nouvellement refaite emprunte sa palette de couleurs à la mascotte qui a fait ses débuts lors de l’événement de 1984 : Seymore D. Fair. ",
+            "picture": "img/adidas/adidasconsortium.jpeg",
             "category": "Adidas",
-            "price": 120
+            "price": 160
         },
         {
-            "reference": 111,
-            "original_name": "Air Jordan 1 Mid",
-            "description": " Disponibles du 38 au 48.",
-            "picture": "img/nike/airforceone.jpeg",
-            "category": "Nike",
-            "price": 120
+            "reference": 202,
+            "original_name": "FOOTPATROL X ADIDAS EQT SUPPORT ’93",
+            "description": " Cette silhouette emblématique a été réimaginée en s’inspirant des éléments naturels et plus particulièrement des hautes montagnes.",
+            "picture": "img/adidas/adidasfootpatrolEQt.jpeg",
+            "category": "Adidas",
+            "price": 159.99
         },
         {
-            "reference": 104,
-            "original_name": "Air Jordan 1 Mid",
-            "description": " Disponibles du 38 au 48.",
-            "picture": "img/nike/airforceone.jpeg",
-            "category": "Nike",
-            "price": 119.99
+            "reference": 203,
+            "original_name": "Overkill adidas EQT CSG 91",
+            "description": "Dans le cadre du 30e anniversaire de la ligne adidas EQT, les Three Stripes ont fait appel à un panel de collaborateurs pour sa collection «Life Needs Equipment». Parmi eux, la propre boutique allemande Overkill, qui a équipé l’adidas EQT CSG 91 de pastels dérivés des offres originales de la série Equipment.",
+            "picture": "img/adidas/adidasoverkill.jpeg",
+            "category": "Adidas",
+            "price": 159.99
         },
         {
-            "reference": 104,
-            "original_name": "Air Jordan 1 Mid",
-            "description": " Disponibles du 38 au 48.",
-            "picture": "img/nike/airforceone.jpeg",
-            "category": "Nike",
-            "price": 119.99
+            "reference": 204,
+            "original_name": "CHAUSSURE GAZELLE",
+            "description": " UNE RÉÉDITION À L’IDENTIQUE DE LA GAZELLE DE 1991.Véritable must-have, la Gazelle est née sur les terrains de football avant de s'imposer dans l’univers streetwear. Cette version reprend les mêmes matières, couleurs, textures et proportions que le modèle de 1991. La tige en nubuck confère à cette chaussure souplesse et confort.",
+            "picture": "img/adidas/gazelle.jpeg",
+            "category": "Adidas",
+            "price": 95
         },
         {
-            "reference": 104,
-            "original_name": "Air Jordan 1 Mid",
-            "description": " Disponibles du 38 au 48.",
-            "picture": "img/nike/airforceone.jpeg",
-            "category": "Nike",
-            "price": 119.99
+            "reference": 205,
+            "original_name": "Billionaire Boys Club x adidas NMD Hu",
+            "description": "Le paysage des baskets était différent il y a cinq ans, avec le modèle adidas NMD Hu de Pharrell Williams reprenant les listes de «graal» et atteignant facilement le triple de son prix de détail sur le marché secondaire. Bien que la silhouette phare du natif de Virginie avec les trois bandes affiche toujours une bonne dose de fanfare, son apogée est incontestablement derrière elle. Pourtant, une paire nouvellement apparue avec l’emblématique Moon Man du Billionaire Boys Club soulève la question: “Qu’est-ce qui aurait pu être?",
+            "picture": "img/adidas/pharelladidas.jpeg",
+            "category": "Adidas",
+            "price": 250
         },
         {
-            "id": 587996,
-            "original_title": "Bajocero",
-            "overview": "Sur une route sombre et peu fréquentée, un véhicule pénitentiaire est détourné. Le policier survivant doit trouver un moyen d'empêcher les criminels de finir leur job.",
-            "poster_path": "https://image.tmdb.org/t/p/original/zDAuCDoxCJ0m1DFoCDSx5znfcm8.jpg",
-            "vote_average": 6.4
+            "reference": 206,
+            "original_name": "The Simpsons x adidas Originals Superstar Snowball",
+            "description": "Inspirée de Snowball II, le deuxième chat de la famille Simpsons, la silhouette de style de vie classique a été réimée pour exprimer le look signature du félin noir. La chaussure présente une tige à fourrure noire ton sur ton accentuée par des yeux verts 3D, des nez roses brodés, des moustaches et des bouches. La conception de la chaussure est terminée par des oreilles de chat, des queues à la languette de talon et des semelles noires assorties.",
+            "picture": "img/adidas/ripsnowball.jpeg",
+            "category": "Adidas",
+            "price": 160
         },
         {
-            "id": 644083,
-            "original_title": "Twist",
-            "overview": "Oliver est un jeune artiste urbain qui vit dans les rues de Londres. Après avoir rencontré une bande de graffeurs menée par la charismatique Dodge, Oliver se retrouve pris dans un piège. Il doit voler une peinture d'une valeur inestimable pour un certain Fagin.",
-            "poster_path": "https://image.tmdb.org/t/p/original/29dCusd9PwHrbDqzxNG35WcpZpS.jpg",
-            "vote_average": 7.1
+            "reference": 207,
+            "original_name": "Palace x adidas UltraBOOST 21",
+            "description": "Conçue pour la fois sur et hors piste, la capsule comprend des chaussures, des casquettes et des chaussettes, tous arrivant en noir et blanc. Sans surprise, chaque pièce a été modifiée pour inclure des motifs et des motifs à carreaux tricotés accrocheurs et vibrants, tels que le logo Mobius Recycling de la marque.",
+            "picture": "img/adidas/runningcapsule.jpeg",
+            "category": "Adidas",
+            "price": 200
         },
         {
-            "id": 464052,
-            "original_title": "Wonder Woman 1984",
-            "overview": "Suite des aventures de Diana Prince, alias Wonder Woman, Amazone devenue une super-héroïne dans notre monde. Après la Première guerre mondiale, direction les années 80 ! Cette fois, Wonder Woman doit affronter deux nouveaux ennemis, particulièrement redoutables : Max Lord et Cheetah.",
-            "poster_path": "https://image.tmdb.org/t/p/original/c45kCPD0U3stFeqgHPsEhfGuVhX.jpg",
-            "vote_average": 6.8
+            "reference": 208,
+            "original_name": "CHAUSSURE SUPERSTAR",
+            "description": "Depuis 50 ans, la sneaker adidas Superstar est une référence sport et street, qui connecte les créateurs à travers le monde.",
+            "picture": "img/adidas/superstarblanche.jpeg",
+            "category": "Adidas",
+            "price": 100
         },
         {
-            "id": 775996,
-            "original_title": "Outside the Wire",
-            "overview": "Un pilote de drone est envoyé surveiller une zone militaire. Il se retrouve à travailler pour un officier androïde chargé de localiser un dispositif apocalyptique avant les insurgés.",
-            "poster_path": "https://image.tmdb.org/t/p/original/vLWVOOO2IU75WVZMOKmgKvQosnb.jpg",
-            "vote_average": 6.5
+            "reference": "301",
+            "original_name": "",
+            "description": "",
+            "picture": "img/adidas/pharelladidas.jpeg",
+            "category": "Vans",
+            "price": 1
         },
         {
             "id": 581387,

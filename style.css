@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Smile candy";
+    src: url("font/SmileCandy.eot") format("eot"),
+    url("font/SmileCandy.svg") format("svg"),
+    url("font/SmileCandy.ttf") format("ttf"),
+    url("font/SmileCandy.otf") format("otf"),
+    url("font/SmileCandy.woff") format("woff");
+}
+
+header{
+    height: 20%;
+    background-color: #144552;
+    font-family: "Smile candy";
+}
+
+.buttonCategory{
+    text-align: center;
+}
+
+.choiceCat{
+    margin: 2rem;
+    border: none;
+}
+
+#allShoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2rem;
+    column-gap: 5rem;
+    row-gap: 1rem;
+}
+
+.shoes{
+    margin: auto;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.category{
+
+}
+
+.imgShoes{
+    width: 100%;
+}
