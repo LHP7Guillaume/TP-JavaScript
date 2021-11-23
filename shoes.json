@@ -137,19 +137,68 @@
             "price": 100
         },
         {
-            "reference": "301",
-            "original_name": "",
-            "description": "",
-            "picture": "img/adidas/pharelladidas.jpeg",
+            "reference": 301,
+            "original_name": "CHAUSSURES FLORAL ERA",
+            "description": "Les Vans Era, baptisées à l'origine Vans #95, ont vu le jour en 1976 et sont devenues populaires grâce aux légendaires Z-Boys de Santa Monica. Il s'agit des premières chaussures dotées de notre célèbre col rembourré, et aujourd'hui, elles restent le modèle de prédilection des créatifs du monde entier. ",
+            "picture": "img/vans/vans_flower.PNG",
             "category": "Vans",
-            "price": 1
+            "price": 75
         },
         {
-            "id": 581387,
-            "original_title": "백두산",
-            "overview": "Un jour, un volcan de la montagne Baekdu entre en éruption et crée la panique en Corée. Une représentante du gouvernement, Jeon Yu Gyeong, va à la rencontre du professeur Kang Bong Rae qui étudie la montagne Baekdu et alerte depuis trois ans déjà des possibles éruptions sans jamais être écouté. Une mission du nom de EOD (Explosive Ordnance Disposal) est alors mise en place avec à sa tête Jo In Chang pour se rendre en Corée du Nord et maîtriser les évènements.",
-            "poster_path": "https://image.tmdb.org/t/p/original/nswaOO9r9vgk2xJoRIguoxknrgA.jpg",
-            "vote_average": 6.6
+            "reference": 302,
+            "original_name": "ANAHEIM FACTORY AUTHENTIC",
+            "description": "Les chaussures Anaheim Factory Authentic 44 DX rendent hommage à la première usine Vans, basée à Anaheim en Californie, en empruntant des détails au modèle Authentic original et en offrant un confort modernisé, grâce à une version améliorée de la semelle intérieure Ortholite®.",
+            "picture": "img/vans/vans_jaune.jpeg",
+            "category": "Vans",
+            "price": 75
+        },
+        {
+            "reference": 303,
+            "original_name": "OLD SKOOL",
+            "description": "Premier modèle à arborer la légendaire rayure Sidestripe, les Vans Old Skool sont des chaussures basses à lacets. Ce modèle doublé est également doté d'un bout renforcé pour résister à l'usure et d'un col rembourré conjuguant maintien et souplesse.",
+            "picture": "img/vans/vans_noir.jpeg",
+            "category": "Vans",
+            "price": 75
+        },
+        {
+            "reference": 304,
+            "original_name": "OLD SKOOL",
+            "description": "Modèle de skate classique signé Vans et premières du genre à arborer la légendaire bande latérale, les Old Skool sont des chaussures basses à lacets aux caractéristiques uniques : tige résistante en toile et daim, bouts renforcés pour résister à l'usure, col rembourré conjuguant maintien et souplesse",
+            "picture": "img/vans/vans_rouge.jpeg",
+            "category": "Vans",
+            "price": 80
+        },
+        {
+            "reference": 305,
+            "original_name": "OLD SKOOL",
+            "description": "Chaussure de skate classique signé Vans et première du genre à arborer la légendaire Sidestripe, la Old Skool adopte une silhouette basse à lacets et des caractéristiques uniques : tige résistante combinant toile et cuir, bouts renforcés pour résister à l'usure",
+            "picture": "img/vans/vansBlue.PNG",
+            "category": "Vans",
+            "price": 75
+        },
+        {
+            "reference": 306,
+            "original_name": "CLASSIC SLIP-ON CHAUSSURE ",
+            "description": "Modèle de skate classique signé Vans et premières du genre à arborer la légendaire bande latérale, les Old Skool sont des chaussures basses à lacets aux caractéristiques uniques : tige résistante en toile et daim, bouts renforcés pour résister à l'usure, col rembourré conjuguant maintien et souplesse",
+            "picture": "img/vans/vansCherry.PNG",
+            "category": "Vans",
+            "price": 75
+        },
+        {
+            "reference": 307,
+            "original_name": "SKATE SLIP-ON VANS X SKATEISTAN",
+            "description": "Ayant vu le jour avec seulement trois skateboards, Skateistan est devenue une organisation non gouvernementale internationale primée qui a pour mission de valoriser les enfants grâce au skateboard et à l'éducation. Fruit du partenariat avec Vans pour une collection unique et élégante, le modèle Skateistan Skate Slip-On allie la griffe et les logos personnalisés de Skateistan à notre construction Skate Classics améliorée, pour offrir le meilleur en matière de style et de performance de skate moderne. ",
+            "picture": "img/vans/vansDamierColor.PNG",
+            "category": "Vans",
+            "price": 85
+        },
+        {
+            "reference": 308,
+            "original_name": "CHAUSSURES FLORAL ERA",
+            "description": "Les Vans Era, baptisées à l'origine Vans #95, ont vu le jour en 1976 et sont devenues populaires grâce aux légendaires Z-Boys de Santa Monica. Il s'agit des premières chaussures dotées de notre célèbre col rembourré, et aujourd'hui, elles restent le modèle de prédilection des créatifs du monde entier. ",
+            "picture": "img/vans/vansWhiteFlowers.PNG",
+            "category": "Vans",
+            "price": 75
         }
     ]
 }

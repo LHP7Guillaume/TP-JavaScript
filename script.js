@@ -10,10 +10,10 @@ for (i = 0; i < arrayShoes.length; i++) {
         document.getElementById('allShoes').innerHTML += `<div class="shoes">
         <img class="imgShoes" src="${arrayShoes[i].picture}" alt="">
         <p class="nameShoes">${arrayShoes[i].original_name}</p>
-        <p class="category">${arrayShoes[i].category}</p>
+        <p class="categoryShoes">${arrayShoes[i].category}</p>
         <p class="descriptionShoes">${arrayShoes[i].description.slice(0, 50)}...</p>
-        <p>${arrayShoes[i].price} €</p>
-        <button class="add">Ajouter au panier</button>
+        <p class="priceShoes">${arrayShoes[i].price} €</p>
+        <button class="addShoes">Ajouter</button>
         </div>`
     }
 };
