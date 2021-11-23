@@ -1,3 +1,4 @@
+//Afficher les articles selon la catégories choisies
 function displayShoes(filtre){
     fetch('shoes.json')
     .then(response => response.json())
@@ -11,9 +12,9 @@ for (i = 0; i < arrayShoes.length; i++) {
         <img class="imgShoes" src="${arrayShoes[i].picture}" alt="">
         <p class="nameShoes">${arrayShoes[i].original_name}</p>
         <p class="categoryShoes">${arrayShoes[i].category}</p>
-        <p class="descriptionShoes">${arrayShoes[i].description.slice(0, 50)}...</p>
-        <p class="priceShoes">${arrayShoes[i].price} €</p>
-        <button class="addShoes">Ajouter</button>
+        <p class="descriptionShoes">${arrayShoes[i].description.slice(0, 60)}...</p>
+        <div class="gridAdd"><p class="priceShoes">${arrayShoes[i].price} €</p>
+        <button class="addShoes">Ajouter</button></div>
         </div>`
     }
 };
@@ -29,3 +30,20 @@ function displayFilter(element){
         displayShoes(catButton);
     }
 }
+
+
+//Afficher et fermer le panier
+document.getElementById('basket').onclick = () => {
+    document.getElementById('modalBasket').style.display = 'block';
+
+}
+
+document.getElementsByClassName('close')[0].onclick = () => {
+    document.getElementById('modalBasket').style.display = 'none';
+}
+
+
+function displayArticlesBasket(){
+    
+}
+

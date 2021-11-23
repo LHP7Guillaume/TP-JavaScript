@@ -3,13 +3,13 @@
     src: url("font/MomcakeBold-WyonA.woff") format("woff");
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: #F5F5F5;
 }
 
-header{
+header {
     height: 20%;
     background-color: #144552;
     display: grid;
@@ -17,7 +17,7 @@ header{
     margin-bottom: 3rem;
 }
 
-h1{
+h1 {
     font-family: "Momcake";
     font-size: 5rem;
     color: white;
@@ -26,25 +26,25 @@ h1{
     margin: 2rem 0rem;
 }
 
-.iconify{
+.iconify {
     color: white;
     font-size: 3rem;
     text-align: center;
     margin: auto;
 }
 
-.category{
+.category {
     text-align: center;
     font-family: "Momcake";
     font-size: 1.5rem;
 }
 
-.buttonCategory{
+.buttonCategory {
     text-align: center;
     margin-bottom: 4rem;
 }
 
-.choiceCat{
+.choiceCat {
     margin: 0.5rem 2rem;
     border: none;
     background-color: #32936F;
@@ -54,7 +54,7 @@ h1{
     font-size: 1.2rem;
 }
 
-#allShoes{
+#allShoes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 2rem;
@@ -62,48 +62,138 @@ h1{
     row-gap: 2rem;
 }
 
-.shoes{
+.shoes {
     margin: auto;
     width: 90%;
-    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
 }
 
-.nameShoes{
+.nameShoes {
     padding: 0;
-    margin: 0.5rem 0rem 0rem 0.5rem;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
     font-family: "Momcake";
-    overflow: hidden; 
-    text-overflow: ellipsis; 
-    display: -webkit-box; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     font-size: 1.3rem;
-    color: #144552;
 }
 
-.categoryShoes{
+.categoryShoes {
     color: #32936F;
     font-size: 0.8rem;
     margin: 0.2rem 0rem 1rem 0.5rem;
 }
 
-.descriptionShoes{
-    margin: 0rem 0rem 1rem 0.5rem;
+.descriptionShoes {
+    margin: 0rem 0.5rem 2rem 0.5rem;
+    font-size: 0.8rem;
 }
 
-.imgShoes{
+.imgShoes {
     width: 100%;
 }
 
-.priceShoes{
+.gridAdd {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+}
+
+.priceShoes {
     margin: 0rem 0rem 1rem 0.5rem;
     font-weight: bold;
 }
 
-.addShoes{
+.addShoes {
     font-size: 1.1rem;
     border: none;
     background-color: #32936F;
     font-family: "Momcake";
-    margin: 0rem 0rem 0.5rem 0.5rem;
+    margin: 0rem 0rem 1rem 0.5rem;
+    width: 5rem;
+    height: 1.8rem;
+}
+
+footer {
+    background-color: #144552;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 5rem;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #F5F5F5;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #144552;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    margin: auto;
+}
+
+.close:hover,
+.close:focus {
+    color: #32936F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gridModal{
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+}
+
+.imgModal{
+    width: 5rem;
+    margin: auto;
+}
+
+.refModal, .qteModal{
+    text-align: center;
+    margin: auto;
+}
+
+.nameModal{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.myBasket{
+    grid-column: 2;
+    margin: auto;
+    font-family: 'Momcake';
+    font-size: 2.5rem;
+    color: #144552;
+}
+
+.topModal{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    margin-bottom: 1.5rem;
 }
