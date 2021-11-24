@@ -10,7 +10,7 @@ function displayShoes(filtre) {
             for (i = 0; i < arrayShoes.length; i++) {
                 if (filtre == 'All' || arrayShoes[i].category == filtre) {
                     document.getElementById('allShoes').innerHTML += `<div class="shoes">
-        <img class="imgShoes" src="${arrayShoes[i].picture}" alt="">
+        <div><img class="imgShoes" src="${arrayShoes[i].picture}" alt=""></div>
         <p class="nameShoes">${arrayShoes[i].original_name}</p>
         <p class="categoryShoes">${arrayShoes[i].category}</p>
         <p class="descriptionShoes">${arrayShoes[i].description.slice(0, 60)}...</p>
@@ -32,10 +32,13 @@ function displayFilter(element) {
     }
 }
 
+
 //Modifier la quantité et le prix
-function changeQte() {
-    let qteModify = document.getElementsByClassName('inputQte')[0].value;
-    console.log(qteModify);
+function changeQte(valeur,index){
+    arrayRef[index][3]=valeur;
+    let xTot=arrayRef[index][3]*arrayRef[index][2];
+    let xNomId="price-"+index;
+    document.getElementById(xNomId).textContent=xTot+" €";
 }
 
 
@@ -43,21 +46,24 @@ function changeQte() {
 document.getElementById('basket').onclick = () => {
     document.getElementById('modalBasket').style.display = 'block';
     document.getElementById('contentBasket').innerHTML = '';
+    let total = 0
     for (let index in arrayRef) {
         let title = arrayRef[index][0];
         let picture = arrayRef[index][1];
         let price = arrayRef[index][2];
-        let qte = arrayRef[index][3]
+        let qte = arrayRef[index][3];
         document.getElementById('contentBasket').innerHTML +=
             `<div class="gridModal" id="obj-${index}">
              <img class="imgModal" src="${picture}" alt="">
              <p class="nameModal">${title}</p>
              <p class="refModal">Réf.: ${index}</p>
-             <p class="qteModal">Qté: <input class="inputQte" type="number" min="1" max="10" value="${qte}" onchange="changeQte()"></p>
-             <p class="priceModal">${price*qteModify} €</p>
+             <p class="qteModal">Qté: <input id="${index}" class="inputQte" type="number" min="1" max="10" value="${qte}" onchange="changeQte(this.value, this.id)"></p>
+             <p id="price-${index}" class="priceModal">${price*qte} €</p>
              <img src="img/trash-alt-solid.svg" id="bin-${index}" class="delete"></img>
          </div>`;
+        total += price*qte;
     }
+    document.getElementById('totalBasket').textContent = `Total panier: ${total} €`;
 }
 
 //Fermer le panier
