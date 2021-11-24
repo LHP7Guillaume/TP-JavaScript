@@ -33,16 +33,17 @@ function displayFilter(element) {
 }
 
 //Modifier la quantité et le prix
-function changeQte(){
-    console.log(this.value);
+function changeQte() {
+    let qteModify = document.getElementsByClassName('inputQte')[0].value;
+    console.log(qteModify);
 }
+
 
 //Afficher le panier et son contenu
 document.getElementById('basket').onclick = () => {
     document.getElementById('modalBasket').style.display = 'block';
     document.getElementById('contentBasket').innerHTML = '';
     for (let index in arrayRef) {
-        console.log(index)
         let title = arrayRef[index][0];
         let picture = arrayRef[index][1];
         let price = arrayRef[index][2];
@@ -52,8 +53,8 @@ document.getElementById('basket').onclick = () => {
              <img class="imgModal" src="${picture}" alt="">
              <p class="nameModal">${title}</p>
              <p class="refModal">Réf.: ${index}</p>
-             <p class="qteModal">Qté:<input type="number" min="1" max="10" value="${qte}" onchange="changeQte"></p>
-             <p class="priceModal">${price*qte} €</p>
+             <p class="qteModal">Qté: <input class="inputQte" type="number" min="1" max="10" value="${qte}" onchange="changeQte()"></p>
+             <p class="priceModal">${price*qteModify} €</p>
              <img src="img/trash-alt-solid.svg" id="bin-${index}" class="delete"></img>
          </div>`;
     }
@@ -75,24 +76,28 @@ function addItem(event) {
         let picture = event.target.dataset.pict;
         let reference = event.target.dataset.ref;
         let price = event.target.dataset.price;
-        if (arrayRef[reference]) {
-            if(arrayRef[reference][3]<10){
-               arrayRef[reference][3]++; 
+        let xRef = 'R' + reference.toString();
+        if (arrayRef[xRef]) {
+            if (arrayRef[xRef][3] < 10) {
+                arrayRef[xRef][3]++;
             }
         } else {
-            arrayRef[reference] = [title, picture, price, 1];
+            arrayRef[xRef] = [title, picture, price, 1];
         }
     }
 }
 
+
 //Supprimer un article
+
 function deleteArticle(e) {
     if (e.target.id.includes('bin')) {
         let indexBin = e.target.id.split('-').pop();
         document.getElementById(`obj-${indexBin}`).remove();
-        arrayRef.splice(indexBin, 1);
+        delete arrayRef[indexBin];
     }
     console.log(arrayRef)
+
 }
 
 document.addEventListener('click', deleteArticle)
