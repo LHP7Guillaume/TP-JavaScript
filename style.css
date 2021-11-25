@@ -35,6 +35,19 @@ h1 {
     text-align: center;
 }
 
+.iconify:hover{
+    color: #2D434E;
+}
+
+#countArt{
+    background-color: orangered;
+    width: 1.4rem;
+    border-radius: 100px;
+    text-align: center;
+    position: absolute;
+    font-size: 1.1rem;
+}
+
 #basket{
     margin: auto;
 }
@@ -71,7 +84,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 2rem 3rem;
-    column-gap: 5rem;
+    column-gap: 3.5rem;
     row-gap: 3rem;
 }
 
@@ -134,7 +147,7 @@ h1 {
     height: 2rem;
 }
 
-.addShoes:hover{
+.addShoes:hover, .check:hover{
     background-color: #2D434E;
 }
 
@@ -251,6 +264,11 @@ footer {
     font-weight: bold;
 }
 
+.gridCheck{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
 .check{
     font-size: 1.1rem;
     border: none;
@@ -260,6 +278,7 @@ footer {
     margin: 0rem 0rem 3rem 0.5rem;
     width: 5rem;
     height: 2rem;
+    grid-column: 2;
 }
 
 button{
